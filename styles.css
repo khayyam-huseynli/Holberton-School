@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: white;     
+}
+
+footer p {
+    border-top: #333333;
+    padding-top: 1rem;   
+}
+
+article p {
+    text-align: justify;
+}
+
+article ul {
+    text-align: justify;
+}
+
+/*img {
+    max-width: 25%;
+    max-height:15%;
+    float: right;
+  }
+*/
+
+header p {
+    text-align: center;
+    color: #333333;
+    font-size: xx-large;
+    padding-bottom: 1rem;
+}
+
