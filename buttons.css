@@ -1,6 +1,6 @@
 .fa {
     padding: 5px;
-    font-size: 20px;
+    font-size: 16px;
     width: 20px;
     text-align: center;
     text-decoration: none;
@@ -15,16 +15,19 @@
   .fa-facebook {
     background: #3B5998;
     color: white;
+    vertical-align: middle;
   }
   
   .fa-github {
     background: black;
     color: white;
+    vertical-align: middle;
   }
   
   .fa-twitter {
     background: #55ACEE;
     color: white;
+    vertical-align: middle;
   }
   
   .fa-google {
@@ -35,6 +38,7 @@
   .fa-linkedin {
     background: #007bb5;
     color: white;
+    vertical-align: middle;
   }
   
   .fa-youtube {
@@ -46,3 +50,10 @@
     background: #125688;
     color: white;
   }
+
+  .buttons{
+    float: right;
+    margin-right: 10px;
+  }
+
+ 

@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     thumbnailElement.className;
             
         if (thumbnailElement.className == "") {
-            thumbnailElement.className = "small";
+            thumbnailElement.className = "small1";
         } else{
             thumbnailElement.className = "";
         }

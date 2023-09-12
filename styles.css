@@ -25,33 +25,100 @@ h1 {
 
 footer {
     text-align: center;
-    background-color: white;     
+         
 }
 
-footer p {
-    border-top: #333333;
-    padding-top: 1rem;   
+footer a {
+    color: red;    
 }
 
 article p {
     text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5;
 }
 
 article ul {
     text-align: justify;
+    line-height: 1.35;
 }
 
-/*img {
-    max-width: 25%;
-    max-height:15%;
-    float: right;
-  }
-*/
+aside ul {
+    text-align: justify;
+    line-height: 1.5;
+}
 
-header p {
+.about-header{
+    padding-bottom: 17px;
+
+}
+
+.tweets-header{
+    padding-bottom: 30px;
+}
+
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.profile_pic {
+    text-align: center;    
+}
+
+.figure-caption{
     text-align: center;
-    color: #333333;
-    font-size: xx-large;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
 }
 
+.right{
+    padding-top: auto;
+    padding-bottom: auto;
+    margin: 0 10px 15px;
+    float: right;
+}
+
+.twitter-share-button{
+    vertical-align: middle;
+}
+
+.fb-share-button{
+    vertical-align: middle;
+}
+
+#logo{
+    padding-bottom: 40px;
+}
+
+@media (max-width: 800px) {
+        
+    .right {
+        float: none;
+    }
+  }
+
+.navigation-about{
+    height: 26px;  
+}
+
+header {
+	padding: 20px 0;
+	height: auto;
+	padding-bottom: 15px;
+}
+
+img {
+	max-width: 100%;
+}
+
+img.small1 {
+	max-width: 45%;
+    max-height:35%;
+    float: right;
+}
